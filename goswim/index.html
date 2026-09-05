@@ -1,64 +1,94 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoSwim 隐私政策 / Privacy Policy</title>
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, "PingFang SC", sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; line-height: 1.7; color: #1a1a1a; background: #fff; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #16181c; } a { color: #6cb6ff; } }
+h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #8884; padding-bottom: 4px; }
+.meta { color: #888; font-size: 0.9em; }
+.en { border-top: 2px solid #8883; margin-top: 3em; padding-top: 1em; }
+</style>
+</head>
+<body>
+
+<h1>GoSwim 隐私政策</h1>
+<p class="meta">生效日期：2026 年 9 月 5 日</p>
+
+<p>GoSwim（以下简称"本应用"）是一款离线优先的游泳训练分析应用。我们非常重视你的隐私。本政策说明本应用如何处理数据。</p>
+
+<h2>核心承诺</h2>
+<p>本应用<strong>不收集、不上传、不出售</strong>你的任何个人数据。具体而言：</p>
+<ul>
+<li>不包含任何第三方分析、广告、追踪或崩溃上报 SDK；</li>
+<li>不向你或任何第三方的服务器发送数据；</li>
+<li>不进行任何形式的用户行为追踪，不使用任何追踪技术；</li>
+<li>没有账号系统，不需要注册或登录。</li>
+</ul>
+
+<h2>健康数据（HealthKit）</h2>
+<p>本应用在你授权后通过 Apple HealthKit 读取你的游泳训练、心率、心率变异性（HRV）等数据，用于在<strong>你的设备本地</strong>计算训练负荷、恢复状态和训练建议。你也可以授权本应用将训练记录写回健康 App。</p>
+<p>所有健康数据仅在设备本地处理，永远不会离开你的设备，也不会用于广告或与任何第三方共享。你可以随时在系统设置中撤销授权，撤销后相关功能将不可用。</p>
+
+<h2>本地 AI 点评功能（可选，默认关闭）</h2>
+<p>本应用提供一个可选的 AI 训练点评功能，<strong>默认关闭</strong>。如果你主动开启，需要自行填写由你控制的服务地址（例如你电脑上运行的 Ollama 服务）。开启后，本次训练的摘要数据会被发送到<strong>你自己填写的地址</strong>，用于生成点评文字。该数据发送完全由你掌控，开发者无法获取这些数据，也不承担你自行配置的服务所产生数据处理责任。</p>
+
+<h2>iCloud 同步</h2>
+<p>你的偏好设置（如泳池长度、单位制、周目标等）可通过苹果的 iCloud 键值存储在你的设备间同步。该同步由苹果在你自己的 iCloud 账号下完成，开发者无法访问你的 iCloud 数据。你可以在系统设置中关闭 iCloud 同步。</p>
+
+<h2>本地存储</h2>
+<p>训练设置与缓存数据保存在你的设备本地。卸载应用即删除全部本地数据。</p>
+
+<h2>儿童隐私</h2>
+<p>本应用不面向 13 岁以下儿童，也不 knowingly 收集任何儿童的个人信息。</p>
+
+<h2>政策变更</h2>
+<p>如本政策有实质性变更，我们会更新此页面并修改生效日期。继续使用本应用即表示接受更新后的政策。</p>
+
+<h2>联系方式</h2>
+<p>如有任何问题，请通过 GitHub 提交 issue：<a href="https://github.com/AwesomeFerris/privacy-policies/issues">AwesomeFerris/privacy-policies</a></p>
+
+<div class="en">
+<h1>GoSwim Privacy Policy</h1>
+<p class="meta">Effective date: September 5, 2026</p>
+
+<p>GoSwim ("the App") is an offline-first swim training analysis app. We take your privacy seriously. This policy explains how the App handles data.</p>
+
+<h2>Our Core Promise</h2>
+<p>The App does <strong>not collect, upload, or sell</strong> any of your personal data. Specifically, the App:</p>
+<ul>
+<li>contains no third-party analytics, advertising, tracking, or crash-reporting SDKs;</li>
+<li>sends no data to our servers or any third-party server;</li>
+<li>does not track your behavior or use any tracking technology;</li>
+<li>has no account system and requires no registration or sign-in.</li>
+</ul>
+
+<h2>Health Data (HealthKit)</h2>
+<p>With your permission, the App reads your swim workouts, heart rate, and heart-rate variability (HRV) from Apple HealthKit to compute training load, recovery, and training suggestions — all <strong>locally on your device</strong>. With your permission it may also save workout records back to the Health app.</p>
+<p>All health data is processed on-device only. It never leaves your device, is never used for advertising, and is never shared with any third party. You may revoke access at any time in system Settings; related features will then become unavailable.</p>
+
+<h2>Optional Local AI Commentary (off by default)</h2>
+<p>The App offers an optional AI workout commentary feature. It is <strong>disabled by default</strong>. If you choose to enable it, you must provide a server address under your own control (for example, an Ollama service running on your computer). When enabled, a summary of the current workout is sent <strong>to the address you configured</strong> to generate commentary text.</p>
+<p>This transfer is entirely under your control. The developer has no access to this data and is not responsible for data processing performed by services you configure yourself.</p>
+
+<h2>iCloud Sync</h2>
+<p>Your preferences (pool length, unit system, weekly goals, etc.) can sync across your devices via Apple's iCloud Key-Value Store. Syncing is performed by Apple under your own iCloud account; the developer cannot access your iCloud data. You can disable iCloud sync in system Settings.</p>
+
+<h2>Local Storage</h2>
+<p>Settings and cached data are stored locally on your device. Deleting the App removes all local data.</p>
+
+<h2>Children's Privacy</h2>
+<p>The App is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+
+<h2>Changes to This Policy</h2>
+<p>If this policy changes materially, we will update this page and revise the effective date. Continued use of the App constitutes acceptance of the updated policy.</p>
+
+<h2>Contact</h2>
+<p>If you have questions, please open an issue on GitHub: <a href="https://github.com/AwesomeFerris/privacy-policies/issues">AwesomeFerris/privacy-policies</a></p>
+</div>
+
+</body>
+</html>
